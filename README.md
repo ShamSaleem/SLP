@@ -124,7 +124,7 @@ while True:
 
 https://huggingface.co/datasets/Locutusque/InstructMix
 
-This model has so far been trained on 10% of the linked data, with more training sessions to come.
+This model has so far been trained on 100,000 examples of the linked data, with more training sessions to come.
 
 ### Training Procedure 
 
