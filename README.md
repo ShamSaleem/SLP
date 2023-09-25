@@ -21,8 +21,8 @@ This a fine-tuned version of gpt2 on Locutusque/InstructMix.
 This model performs significantly better than Locutusque/gpt2-conversational-or-qa. Here are the training results:
 
 
-- BLEU - 26
-- Perplexity - 12
+- BLEU - 30
+- Perplexity - 5
 ### Model Description
 
 <!-- Provide a longer summary of what this model is. -->
@@ -87,8 +87,8 @@ Use the code below to get started with the model.
 import torch
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
-tokenizer = GPT2Tokenizer.from_pretrained('gpt2-conversational-retrain')
-model = GPT2LMHeadModel.from_pretrained('gpt2-conversational-retrain')
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2-large-conversational-retrain')
+model = GPT2LMHeadModel.from_pretrained('gpt2-large-conversational-retrain')
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 def generate_text(model, tokenizer, prompt, max_length=1024):
