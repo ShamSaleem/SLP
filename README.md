@@ -18,7 +18,7 @@ widget:
 This a fine-tuned version of gpt2 on Locutusque/InstructMix.
 
 ## Model Details
-This model performs significantly better than Locutusque/gpt2-conversational-or-qa. Here are the training results:
+This model performs significantly better than Locutusque/gpt2-large-conversational. Here are the training results:
 
 
 - BLEU - 30
