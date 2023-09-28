@@ -124,7 +124,7 @@ while True:
 
 https://huggingface.co/datasets/Locutusque/InstructMix
 
-This model has so far been trained on 100,000 examples of the linked data, with more training sessions to come.
+This model has so far been trained on 600,000 examples of the linked data, with more training sessions to come.
 
 ### Training Procedure 
 
@@ -167,7 +167,8 @@ This model has so far been trained on 100,000 examples of the linked data, with 
 
 <!-- These are the evaluation metrics being used, ideally with a description of why. -->
 
-[More Information Needed]
+- BLEU = 30
+- Perplexity = 5
 
 ### Results
 
