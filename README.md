@@ -33,7 +33,7 @@ This model performs significantly better than Locutusque/gpt2-large-conversation
 - **Shared by [optional]:** [More Information Needed]
 - **Model type:** GPT-2
 - **Language(s) (NLP):** English
-- **License:** [More Information Needed]
+- **License:** mit
 - **Finetuned from model [optional]:** GPT-2
 
 ### Model Sources [optional]
@@ -65,13 +65,13 @@ Instruction-following or conversational.
 
 <!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
 
-[More Information Needed]
+This model struggles to write complex code, and I only recommend simple code from this model.
 
 ## Bias, Risks, and Limitations
 
 <!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
-[More Information Needed]
+This model will most likely produce false information, especially about history. Make sure to confirm the responses this model makes.
 
 ### Recommendations
 
