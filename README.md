@@ -9,7 +9,28 @@ metrics:
 - perplexity
 pipeline_tag: text-generation
 widget:
-  - text: '<|USER|> Design a Neo4j database and Cypher function snippet to Display Extreme Dental hygiene: Using Mouthwash for Analysis for Beginners. Implement if/else or switch/case statements to handle different conditions related to the Consent. Provide detailed comments explaining your control flow and the reasoning behind each decision. <|ASSISTANT|> '
+  - text: >-
+      <|USER|> Design a Neo4j database and Cypher function snippet to Display
+      Extreme Dental hygiene: Using Mouthwash for Analysis for Beginners.
+      Implement if/else or switch/case statements to handle different conditions
+      related to the Consent. Provide detailed comments explaining your control
+      flow and the reasoning behind each decision. <|ASSISTANT|> 
+  - text: >-
+      <|USER|> Write me a story about a magical place. <|ASSISTANT|> 
+  - text: >-
+      <|USER|> Write me an essay about the life of George Washington <|ASSISTANT|> 
+  - text: >-
+      <|USER|> Solve the following equation 2x + 10 = 20 <|ASSISTANT|> 
+  - text: >-
+      <|USER|> Craft me a list of some nice places to visit around the world. <|ASSISTANT|> 
+inference:
+  parameters:
+    temperature: 0.8
+    do_sample: True
+    top_p: 0.14
+    top_k: 41
+    max_new_tokens: 250
+    repetition_penalty: 1.176
 ---
 
 # Model Card for Model ID
